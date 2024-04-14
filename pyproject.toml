@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "syn-m4-hw03"
+version = "0.1.0"
+description = "Домашнее задание по программированию на языке Python"
+authors = ["Michael Savin <jtprogru@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.4"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+black = "^24.4.0"
+uvicorn = "^0.29.0"
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
